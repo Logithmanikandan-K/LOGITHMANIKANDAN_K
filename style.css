@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(219, 210, 198);
+     
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 4, 4);
+    padding: 15px 10px;
+    align-items: center;
+    position:-ms-page;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+.logo{
+    font-family:'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    color: rgb(251, 255, 6);
+}
+.demo
+{
+    list-style: none; 
+}
+.demo li{
+    display: inline;
+    padding: 25px;
+    font-size: 25px;
+}
+.demo li a:hover{
+color: rgb(68, 0, 255);
+}
+
+footer{
+    background-color: rgb(38, 35, 35);
+    color: black;
+    text-align: center;
+    bottom: 0%;
+    padding:0px;
+    margin: 0px;
+    position:relative;
+    width: 100%;
+
+}
+.move{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+.details{
+    text-align: center;
+}
+.image{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+
+}
+.insta{
+    border-radius: 100px;
+}

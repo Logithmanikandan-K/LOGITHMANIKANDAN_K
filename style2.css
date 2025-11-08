@@ -1,0 +1,5 @@
+.demo li a.active {
+    color: yellow;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
